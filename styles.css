@@ -3,6 +3,11 @@ h1, h2, p, li, ul{
     color: greenyellow;
 }
 
+p {
+    width: 60%;
+    align-self: auto;
+}
+
 body {
     background-color: grey;
 }
@@ -12,6 +17,11 @@ ul {
 	padding: 0; 
 } 
 
-li::before { 
-	content: '• '; 
-} 
+.li-unordered::before {
+    content: '• '; 
+}
+
+.imgBox {
+    margin: 25%;
+    align-self: auto;
+}
