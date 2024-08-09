@@ -26,6 +26,8 @@ ul {
 }
 
 .imgBox {
-    margin: 0%, 25%;
-    align-self: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
