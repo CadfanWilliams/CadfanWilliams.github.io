@@ -1,6 +1,11 @@
-h1, h2, p, li {
+h1, h2, p, li, ul{
     text-align: center;
     color: greenyellow;
+}
+
+li {
+    text-align: left;
+    display: inline-block;
 }
 
 body {
