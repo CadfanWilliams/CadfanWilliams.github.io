@@ -3,11 +3,15 @@ h1, h2, p, li, ul{
     color: greenyellow;
 }
 
-li {
-    text-align: left;
-    display: inline-block;
-}
-
 body {
     background-color: grey;
 }
+
+ul { 
+	list-style-type: none; 
+	padding: 0; 
+} 
+
+li::before { 
+	content: '• '; 
+} 
