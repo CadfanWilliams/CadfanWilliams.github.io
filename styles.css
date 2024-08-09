@@ -5,7 +5,11 @@ h1, h2, p, li, ul{
 
 p {
     width: 60%;
-    align-self: auto;
+    
+}
+
+section {
+    align-content: center;
 }
 
 body {
